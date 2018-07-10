@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="colt"
+           fetch="https://github.com/ColtAOSP"
+	   revision="refs/heads/cos8.x" />
+
+  <!-- FIRST: Remove unused/forked AOSP Projects -->
+  <include name="coltaosp/remove.xml" />
+  
+  <!-- Add LineageOS repos -->
+  <include name="coltaosp/los.xml" />
+
+  <!-- Add Colt Repos -->
+  <include name="coltaosp/coltaosp.xml" />
+
+
+</manifest>
